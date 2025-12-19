@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cours_work/core/app_colors.dart';
-import 'package:cours_work/core/fonts.dart'; //
+import 'package:cours_work/core/fonts.dart';
 import 'package:cours_work/data/models/article.dart';
 import 'package:flutter/material.dart';
 
@@ -97,7 +97,6 @@ class FeaturedArticleCard extends StatelessWidget {
                       Text(
                         article.title,
                         style: AppFonts.playfairDisplay(
-                          //
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
