@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Simple font helper without Google Fonts.
-/// Uses system fonts that support Ukrainian.
 class AppFonts {
-  // Serif-like heading font
   static TextStyle playfairDisplay({
     double? fontSize,
     FontWeight? fontWeight,
@@ -34,7 +31,6 @@ class AppFonts {
     );
   }
 
-  // Sans-serif body fonts
   static TextStyle lato({
     double? fontSize,
     FontWeight? fontWeight,
